@@ -45,7 +45,7 @@ class App(QWidget):
 
     def get_info(self):
         city = self.search.text()
-        key = '28f9ca3cbc8d0e8940eabf63606fa53d'
+        key = ''
         url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={key}&units=imperial'
 
         try:
