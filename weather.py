@@ -54,7 +54,7 @@ class App(QWidget):
             if response.status_code == 200:
                 data = response.json()
 
-                # Extract key weather info
+              
                 city_name = data['name']
                 temp = data['main']['temp']
                 feels_like = data['main']['feels_like']
